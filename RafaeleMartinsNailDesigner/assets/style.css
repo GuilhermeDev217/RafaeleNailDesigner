@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+  background-color: #F6F6F6;
+}
+#wpp{
+  width: 50px;
+  height: 50px;
+}
+.navmob{
+  display: none;
+}
+.section1{
+    width: 100vw;
+    height: 151.54px;
+    background-color: #FFE9E2;
+    display: inline-block;
+    align-items: center;
+}
+.topicos{
+    padding-left: 40vw;
+}
+.head{
+    margin-right: 40px;
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    color: #2F2E2E;
+
+}
+#Logo{
+    position:absolute;
+    display: inline-block;
+    margin-left: 10vw;
+}
+#InstaIcon{
+    margin-left: 12vw;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.section2{
+    position: relative;
+    width: 100%;
+    height: 604px;
+    overflow: hidden; 
+}
+.imagem-fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para cobrir todo o container */
+    z-index: -1; /* Coloca a imagem de fundo atrás dos outros elementos */
+  }
+  
+  #texto1 {
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1vw;
+    color: #151515;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 8vw;
+  }
+  
+  .separator {
+    position: absolute;
+    width: 200px;
+    z-index: 1; 
+    margin-top: 260px;
+    margin-left: 8vw;
+  }
+  
+  #subtexto1 {
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1vw;
+    color: #9B9B9B;
+    z-index: 1;
+    margin-top: 275px;
+    margin-left: 8vw;
+  }
+  .esmalte{
+    margin-left: 57vw;
+    margin-top: 12vh;
+  }
+
+.footsec2{
+    width: 100vw;
+    height:188px;
+    background-color: #FFE9E2;
+    align-items: center;
+    display: flex;
+  }
+
+  #motiv{
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #2F2E2E;
+  }
+  .section3{
+    width: 100vw;
+    height: 75vh;
+    background-color: #F6F6F6;
+  } 
+
+  h2{
+    font-family: "Unica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-left: 41.5vw;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+  }
+  .serv{
+    font-family: "Unica One", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 42vw;
+    font-style: normal;
+    align-items: center;
+  }
+
+  .section4{
+    width: 100vw;
+    background-color: #FFFFFF;
+  }
+
+
+  h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #44403E;
+    margin-left: 28%;
+    padding-top: 40px;
+  }
+  #sub4{
+    padding-bottom: 20px;
+    margin-left: 40%;
+    margin-top: 3vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #2F2E2E;
+  }
+  .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.imgs img {
+    margin: 2px;
+    width: calc(28% - 4px);
+    box-sizing: border-box;
+    width: 560px;
+    height: 300px;
+}
+
+#section5 {
+  display: flex;
+  padding-top: 6vh;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+}
+
+h4{
+  font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#map{
+  margin-top: 3vh;
+  width: 70vw;
+  height: 60vh;
+}
+
+#INSTA{
+  display: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+@media screen and (max-width:1180px){
+  .topicos{
+    padding-left: 35vw;
+}
+
+.head{
+    margin-right: 8px;
+    font-weight: 400;
+
+}
+#Logo{
+    margin-left: 7vw;
+}
+#InstaIcon{
+    margin-left: 8vw;
+}
+.section2{
+  width: 100%;
+  height: 504px;
+}
+.imagem-fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover; /* Ajusta a imagem para cobrir todo o container */
+  z-index: -1; /* Coloca a imagem de fundo atrás dos outros elementos */
+}
+
+#texto1 {
+  font-size: 15px;
+  margin-top: 210px;
+  margin-left: 8vw;
+  width: 50vw;
+}
+
+.separator {
+  width: 150px;
+}
+#subtexto1 {
+  font-size: 13px;
+  color: #9B9B9B;
+}
+.esmalte{
+  margin-left: 57vw;
+  margin-top: 13vh;
+  width: 40vw;
+}
+
+#motiv{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 3rem;
+  margin-left: 35vw;
+}
+.serv{
+  margin-left: 35vw;
+}
+
+h3{
+  font-size: 20px;
+  margin-left: 20%;
+}
+#sub4{
+  margin-left: 32%;
+
+}
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-bottom: 40px;
+}
+
+.imgs img {
+  margin: 2px;
+  width: calc(28% - 4px);
+  box-sizing: border-box;
+  width: 30vw;
+  height: 18vh;
+}
+
+
+h4{
+  font-size: 30px;
+}
+#map{
+  margin-top: 3vh;
+  width: 70vw;
+  height: 60vh;
+}
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  .topicos{
+    display: none;
+  }
+  #INSTA{
+    display: flex;
+    margin-right: 10vw;
+    justify-content: right;
+  }
+.head{
+    margin-right: 8px;
+    font-weight: 400;
+
+}
+#Logo{
+    margin-left: 7vw;
+    width: 130px;
+    margin-top: 20px;
+}
+#InstaIcon{
+    margin-left: 8vw;
+}
+.section2{
+  width: 100%;
+  height: 504px;
+}
+.imagem-fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover; /* Ajusta a imagem para cobrir todo o container */
+  z-index: -1; /* Coloca a imagem de fundo atrás dos outros elementos */
+}
+
+#texto1 {
+  font-size: 15px;
+  margin-top: 200px;
+  margin-left: 8vw;
+  width: 50vw;
+}
+
+.separator {
+  width: 150px;
+}
+#subtexto1 {
+  font-size: 11px;
+  color: #9B9B9B;
+}
+.esmalte{
+  margin-left: 62vw;
+  margin-top: 18vh;
+  width: 35vw;
+}
+
+#motiv{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 2.4rem;
+  margin-left: 30vw;
+}
+.serv{
+  margin-left: 30vw;
+}
+
+h3{
+  font-size: 17px;
+  margin-left: 15%;
+}
+#sub4{
+  margin-left: 27%;
+
+}
+
+.imgs img {
+  margin: 2px;
+  width: calc(28% - 4px);
+  box-sizing: border-box;
+  width: 30vw;
+  height: 14vh;
+}
+
+
+h4{
+  font-size: 25px;
+}
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+@media screen and (max-width:545px){
+  .topicos{
+    display: none;
+  }
+  #INSTA{
+    display: flex;
+    margin-right: 10vw;
+    justify-content: right;
+  }
+.head{
+    margin-right: 8px;
+    font-weight: 400;
+
+}
+#Logo{
+    margin-left: 5vw;
+    width: 130px;
+    margin-top: 20px;
+}
+#InstaIcon{
+    margin-left: 8vw;
+}
+.section2{
+  width: 100%;
+  height: 404px;
+}
+.imagem-fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover; /* Ajusta a imagem para cobrir todo o container */
+  z-index: -1; /* Coloca a imagem de fundo atrás dos outros elementos */
+}
+
+#texto1 {
+  font-size: 14px;
+  margin-top: 155px;
+  margin-left: 8vw;
+  width: 50vw;
+}
+
+.separator {
+  width: 150px;
+  margin-top: 225px;
+}
+#subtexto1 {
+  margin-top: 235px;
+  font-size: 10px;
+  color: #9B9B9B;
+}
+.esmalte{
+  margin-left: 62vw;
+  margin-top: 16vh;
+  width: 32vw;
+}
+
+#motiv{
+  font-size: 1.2rem;
+}
+
+h2{
+  font-size: 2.1rem;
+  margin-left: 27vw;
+}
+.serv{
+  margin-left: 27vw;
+}
+
+h3{
+  font-size: 13px;
+  margin-left: 13%;
+}
+#sub4{
+  margin-left: 19%;
+  font-size: 15px;
+}
+
+.imgs img {
+  margin: 2px;
+  width: calc(28% - 4px);
+  box-sizing: border-box;
+  width: 30vw;
+  height: 10vh;
+}
+
+
+h4{
+  font-size: 25px;
+}
+#map{
+  margin-top: 3vh;
+  width: 70vw;
+  height: 30vh;
+}
+}
