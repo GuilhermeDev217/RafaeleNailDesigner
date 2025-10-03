@@ -1,2 +1,2 @@
 # RafaeleNailDesigner
- Projeto de website para uma profissonal em nail design
+ Projeto de LandingPage para uma profissional de manicure, utilizando as tecnologias HTML e CSS.
